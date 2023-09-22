@@ -1,0 +1,22 @@
+{
+  "name": "testingpractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testing.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverVuong/TestingPractice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OliverVuong/TestingPractice/issues"
+  },
+  "homepage": "https://github.com/OliverVuong/TestingPractice#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

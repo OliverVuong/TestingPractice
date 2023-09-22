@@ -41,3 +41,23 @@ describe('Calculator', () => {
         expect(calculator.multiply(3, 7)).toBe(21);
     })
 })
+
+test('caesarCipher abc into bcd', () => {
+    expect(caesarCipher('abc', 1)).toBe('bcd');
+})
+
+describe('analyzeArray', () => {
+    const obj = analyzeArray([1,8,3,4,2,6]);
+    test('average equals 4', () => {
+        expect(obj.average).toBe(4);
+    })
+    test('min equals 1', () => {
+        expect(obj.min).toBe(1);
+    })
+    test('max equals 8', () => {
+        expect(obj.max).toBe(8);
+    })
+    test('length equals 6', () => {
+        expect(obj.length).toBe(6);
+    })
+})
